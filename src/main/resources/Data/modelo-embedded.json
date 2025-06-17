@@ -1,0 +1,43 @@
+{
+  "id_colecao": "c1",
+  "nome": "Coleção Primavera",
+  "data_inicio": "2024-09-01",
+  "data_fim": "2025-02-28",
+  "estampas": [
+    {
+      "id_estampa": "e1",
+      "nome": "Estampa Floral",
+      "quantidade": 100,
+      "pecas": [
+        {
+          "peca_id": "p1",
+          "tipo": "Camiseta",
+          "tamanho": "M",
+          "cor": "Branco",
+          "quantidade": 30
+        },
+        {
+          "peca_id": "p2",
+          "tipo": "Camiseta",
+          "tamanho": "G",
+          "cor": "Preto",
+          "quantidade": 20
+        }
+      ]
+    },
+    {
+      "id_estampa": "e2",
+      "nome": "Estampa Geométrica",
+      "quantidade": 80,
+      "pecas": [
+        {
+          "peca_id": "p3",
+          "tipo": "Calça",
+          "tamanho": "P",
+          "cor": "Azul",
+          "quantidade": 40
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "p1",
+    "tipo": "Camiseta",
+    "tamanho": "M",
+    "cor": "Branco",
+    "quantidade": 30
+  },
+  {
+    "_id": "p2",
+    "tipo": "Camiseta",
+    "tamanho": "G",
+    "cor": "Preto",
+    "quantidade": 20
+  },
+  {
+    "_id": "p3",
+    "tipo": "Calça",
+    "tamanho": "P",
+    "cor": "Azul",
+    "quantidade": 40
+  }
+]

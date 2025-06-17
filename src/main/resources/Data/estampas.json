@@ -1,0 +1,14 @@
+[
+  {
+    "_id": "e1",
+    "nome": "Estampa Floral",
+    "quantidade": 100,
+    "id_colecao": "c1"
+  },
+  {
+    "_id": "e2",
+    "nome": "Estampa Geométrica",
+    "quantidade": 80,
+    "id_colecao": "c1"
+  }
+]

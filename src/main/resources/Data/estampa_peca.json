@@ -1,0 +1,14 @@
+[
+  {
+    "id_estampa": "e1",
+    "id_peca": "p1"
+  },
+  {
+    "id_estampa": "e1",
+    "id_peca": "p2"
+  },
+  {
+    "id_estampa": "e2",
+    "id_peca": "p3"
+  }
+]
