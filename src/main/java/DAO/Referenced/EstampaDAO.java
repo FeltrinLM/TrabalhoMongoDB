@@ -27,9 +27,9 @@ public class EstampaDAO {
                 colecao.insertOne(Document.parse(jsonArray.getJSONObject(i).toString()));
             }
 
-            System.out.println("✅ Estampas inseridas com sucesso.");
+            System.out.println("Estampas inseridas com sucesso.");
         } catch (Exception e) {
-            System.err.println("❌ Erro ao inserir estampas: " + e.getMessage());
+            System.err.println("Erro ao inserir estampas: " + e.getMessage());
         }
     }
 }

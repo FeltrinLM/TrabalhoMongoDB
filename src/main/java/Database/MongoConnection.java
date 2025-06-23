@@ -7,7 +7,7 @@ import com.mongodb.client.MongoDatabase;
 public class MongoConnection {
 
     private static final String URI = "mongodb+srv://lorenzo:1234@trabalhobancodados.0nxya0x.mongodb.net/?retryWrites=true&w=majority&appName=TrabalhoBancoDados";
-    private static final String DATABASE_NAME = "test"; // ou o nome real que você está usando
+    private static final String DATABASE_NAME = "test";
 
     private static MongoClient mongoClient = null;
 

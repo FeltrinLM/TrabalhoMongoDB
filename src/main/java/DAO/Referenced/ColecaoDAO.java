@@ -32,9 +32,9 @@ public class ColecaoDAO {
                 colecao.insertOne(Document.parse(jsonArray.getJSONObject(i).toString()));
             }
 
-            System.out.println("✅ Coleções inseridas com sucesso.");
+            System.out.println("Coleções inseridas com sucesso.");
         } catch (Exception e) {
-            System.err.println("❌ Erro ao inserir coleções: " + e.getMessage());
+            System.err.println("Erro ao inserir coleções: " + e.getMessage());
         }
     }
 }

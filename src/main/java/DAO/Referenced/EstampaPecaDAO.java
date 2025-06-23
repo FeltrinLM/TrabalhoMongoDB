@@ -27,9 +27,9 @@ public class EstampaPecaDAO {
                 colecao.insertOne(Document.parse(jsonArray.getJSONObject(i).toString()));
             }
 
-            System.out.println("✅ Estampa_Peca inserido com sucesso.");
+            System.out.println("Estampa_Peca inserido com sucesso.");
         } catch (Exception e) {
-            System.err.println("❌ Erro ao inserir estampa_peca: " + e.getMessage());
+            System.err.println("Erro ao inserir estampa_peca: " + e.getMessage());
         }
     }
 }

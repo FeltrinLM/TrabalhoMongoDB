@@ -23,10 +23,10 @@ public class DBEmbeddedDAO {
             MongoCollection<Document> colecao = db.getCollection("colecoes_embedded");
 
             colecao.insertOne(documento);
-            System.out.println("✅ Coleção inserida com sucesso (Embedded).");
+            System.out.println("Coleção inserida com sucesso (Embedded).");
 
         } catch (Exception e) {
-            System.err.println("❌ Erro ao inserir documento: " + e.getMessage());
+            System.err.println("Erro ao inserir documento: " + e.getMessage());
         }
     }
 }

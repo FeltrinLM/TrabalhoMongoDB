@@ -27,9 +27,9 @@ public class PecaDAO {
                 colecao.insertOne(Document.parse(jsonArray.getJSONObject(i).toString()));
             }
 
-            System.out.println("✅ Peças inseridas com sucesso.");
+            System.out.println("Peças inseridas com sucesso.");
         } catch (Exception e) {
-            System.err.println("❌ Erro ao inserir peças: " + e.getMessage());
+            System.err.println("Erro ao inserir peças: " + e.getMessage());
         }
     }
 }

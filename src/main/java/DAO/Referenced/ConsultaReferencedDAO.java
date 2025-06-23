@@ -15,7 +15,7 @@ import static com.mongodb.client.model.Projections.*;
 public class ConsultaReferencedDAO {
 
     public void consulta1_EstampasComPecasAbaixoDe30() {
-        System.out.println("\n🔎 Consulta 1: Listar estampas e suas peças com quantidade < 30\n");
+        System.out.println("\n Consulta 1: Listar estampas e suas peças com quantidade < 30\n");
 
         MongoDatabase db = MongoConnection.getDatabase();
         MongoCollection<Document> rel = db.getCollection("estampa_peca");
@@ -41,7 +41,7 @@ public class ConsultaReferencedDAO {
     }
 
     public void consulta2_EstampasPorColecao() {
-        System.out.println("\n🔎 Consulta 2: Listar nome das coleções e das estampas relacionadas\n");
+        System.out.println("\n Consulta 2: Listar nome das coleções e das estampas relacionadas\n");
 
         MongoDatabase db = MongoConnection.getDatabase();
         MongoCollection<Document> estampas = db.getCollection("estampas");
